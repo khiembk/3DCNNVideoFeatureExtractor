@@ -41,7 +41,7 @@ if __name__=="__main__":
             input_files.append(row[:-1])
 
     class_names = []
-    with open('class_names_list') as f:
+    with open('/content/3DCNNVideoFeatureExtractor/class_names_list') as f:
         for row in f:
             class_names.append(row[:-1])
 
